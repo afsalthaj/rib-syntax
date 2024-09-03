@@ -1,65 +1,34 @@
-# rib README
+# Rib Syntax Highlighting for Visual Studio Code
 
-This is the README for your extension "rib". After writing up a brief description, we recommend including the following sections.
+Syntax Highlighter for Rib in VSCode.
+
+Rib is a language used by the Worker Gateway in [Golem](https://www.golem.cloud), that enables users to write programs capable of manipulating worker responses, which are WebAssembly (WASM) values.
+To know more about Rib, please visit the [Rib documentation](https://learn.golem.cloud/docs/rib).
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+The **Rib** extension provides syntax highlighting and support for the Rib programming language. Key features include:
 
-For example if there is an image subfolder under your extension project workspace:
+- **Syntax Highlighting**: Highlight various elements of the Rib language including variables, keywords, and literals.
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+For example, you can see syntax highlighting for a Rib code snippet below:
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+To use this extension, you need Visual Studio Code (version 1.0.0 or higher). There are no additional dependencies.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not add any specific VS Code settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **Syntax Highlighting Inconsistencies**: Some Rib constructs may not be highlighted correctly in all cases. We are working on improving this.
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+### 0.0.1
 
 **Enjoy!**
