@@ -33,9 +33,4 @@ This extension does not add any specific VS Code settings.
 - **Syntax Highlighting Inconsistencies**: Some Rib constructs may not be highlighted correctly in all cases. We are working on improving this.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
-
-**Enjoy!**
+To be released..
