@@ -1,0 +1,25 @@
+{
+  "name": "rib",
+  "displayName": "Rib Syntax Highlighting",
+  "description": "Provides syntax highlighting for the Rib programming language, a statically typed scripting language specially made for interacting with your durable worker functions in Golem",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "rib",
+      "aliases": ["Rib", "rib"],
+      "extensions": [".rib"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "rib",
+      "scopeName": "source.rib",
+      "path": "./syntaxes/rib_grammer.json"
+    }]
+  }
+}

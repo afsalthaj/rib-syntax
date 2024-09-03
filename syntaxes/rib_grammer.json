@@ -1,0 +1,45 @@
+{
+  "scopeName": "source.rib",
+  "name": "Rib",
+  "patterns": [
+    {
+      "name": "keyword.control.rib",
+      "match": "\\b(let|if|then|else|match|some|none|ok|err|not|multiple)\\b"
+    },
+    {
+      "name": "variable.rib",
+      "match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
+    },
+    {
+      "name": "constant.numeric.rib",
+      "match": "\\b\\d+((s|u)(8|16|32|64)|f(32|64))?\\b"
+    },
+    {
+      "name": "string.quoted.double.rib",
+      "begin": "\"",
+      "end": "\"",
+      "patterns": [
+        {
+          "name": "constant.character.escape.rib",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "punctuation.separator.rib",
+      "match": "[;=,.:{}()\\[\\]]"
+    },
+    {
+      "name": "storage.type.rib",
+      "match": "\\b(bool|s8|u8|s16|u16|s32|u32|s64|u64|f32|f64|chr|str|list|tuple|option)\\b"
+    },
+    {
+      "name": "support.type.primitive.rib",
+      "match": "\\b(true|false)\\b"
+    }
+  ],
+  "repository": {},
+  "fileTypes": ["rib"],
+  "uuid": "your-unique-id"
+}
+
