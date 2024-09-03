@@ -15,7 +15,12 @@ For example, you can see syntax highlighting for a Rib code snippet below:
 
 ## Requirements
 
-To use this extension, you need Visual Studio Code (version 1.0.0 or higher). There are no additional dependencies.
+To use this extension, you need Visual Studio Code (version 1.91.0 or higher). There are no additional dependencies.
+
+## Quick Start
+
+* Download the vsix file in this repository
+* Open VSCode, and install extensions from `.vsix`. Sooner, a stable version will be available in marketplace.
 
 ## Extension Settings
 
