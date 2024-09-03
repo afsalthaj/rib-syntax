@@ -5,6 +5,8 @@ Syntax Highlighter for Rib in VSCode.
 Rib is a language used by the Worker Gateway in [Golem](https://www.golem.cloud), that enables users to write programs capable of manipulating worker responses, which are WebAssembly (WASM) values.
 To know more about Rib, please visit the [Rib documentation](https://learn.golem.cloud/docs/rib).
 
+<img width="1574" alt="image" src="https://github.com/user-attachments/assets/2f4225c1-bf72-4be3-993e-e4edbc4a455b">
+
 ## Features
 
 The **Rib** extension provides syntax highlighting and support for the Rib programming language. Key features include:
